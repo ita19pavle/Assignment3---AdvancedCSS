@@ -1,0 +1,41 @@
+
+div {
+    display: grid;
+   grid-template-columns: repeat(5, 200px);
+   grid-gap: 50px;
+   
+}
+.plavapozadina {
+    background: #6ba2d9;
+    border-radius: 5%;
+}
+.sivapozadina {
+    background: #faf7ff;
+    text-align: center;
+}
+figure {
+    width: 200px;
+}
+img {
+    width: 100%;
+}
+h1, p {
+    margin-left: 42px;
+}
+p { 
+    max-width: 80vw;
+    
+
+}
+@media screen and (max-width: 1024px) {
+ div   { grid-template-columns: repeat(5, 200px);
+    }
+}
+@media screen and (max-width: 768px) {
+ div  { grid-template-columns: repeat(3, 200px);
+   }
+}
+@media screen and (max-width: 414px) {
+ div   { grid-template-columns: repeat(1, 200px);
+    }
+}
